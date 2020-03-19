@@ -1,0 +1,22 @@
+package com.example.demo;
+
+public class BinarySearchImpl {
+	public BinarySearchImpl(SortAlorithm sortAlgorithm) {
+		super();
+		this.sortAlgorithm = sortAlgorithm;
+	}
+
+public int binarySearch(int[]numbers,int numberToSort) {
+	//implementing sorting logic
+	// Bubble Sort Alogrithm
+	//Quick Sort Algorithm
+	//Search the array
+	
+    BubbleSortAlgorithm bubblesortAlogorithm = new BubbleSortAlgorithm();
+	int[] sortedNumbers = bubblesortAlogorithm.sort(numbers);
+    
+	
+	return 3;
+	
+}
+}
