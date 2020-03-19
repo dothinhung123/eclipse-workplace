@@ -19,6 +19,7 @@ public class Spring5MinutesApplication {
 	BinarySearchImpl binarySearch = applicationContext.getBean(BinarySearchImpl.class);
 int result = binarySearch.binarySearch(new int[] {12,4,6},3);
 		System.out.println(result);
+		// I do not like you 
 		
 		
 	}
