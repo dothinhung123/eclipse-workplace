@@ -13,13 +13,12 @@ public class Spring5MinutesApplication {
 
 	public static void main(String[] args) {
 		
-		//BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgorithm());
-		// Application Context
-	ApplicationContext applicationContext= SpringApplication.run(Spring5MinutesApplication.class, args);
-	BinarySearchImpl binarySearch = applicationContext.getBean(BinarySearchImpl.class);
-int result = binarySearch.binarySearch(new int[] {12,4,6},3);
-		System.out.println(result);
-		// I do not like you 
+	 ApplicationContext applicationContext = SpringApplication.run(Spring5MinutesApplication.class, args);
+	 BinarySearchImpl binarySearch = applicationContext.getBean(BinarySearchImpl.class);
+	 int result = binarySearch.binarySearch(new int[] { 1,43,3},4);
+	 System.out.println(result);
+	 
+
 		
 		
 	}
