@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.javabrains.MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in com.javabrains.MathUtilsTest
+test  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make com.javabrains.MathUtilsTest() accessible: module com.javabrains does not "opens com.javabrains" to unnamed module @757acd7b
+
+testComputeCircleRadius  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make com.javabrains.MathUtilsTest() accessible: module com.javabrains does not "opens com.javabrains" to unnamed module @757acd7b
+
