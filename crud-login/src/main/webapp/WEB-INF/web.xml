@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<welcome-file-list>
+<welcome-file>
+index.jsp
+</welcome-file>
+</welcome-file-list>
+  <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>com.go.filter.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <servlet-name>/*</servlet-name>
+    </filter-mapping>
+</web-app>

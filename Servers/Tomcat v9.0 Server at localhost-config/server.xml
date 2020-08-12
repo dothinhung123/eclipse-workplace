@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="jsp-serlvet-jdbc-book" path="/jsp-serlvet-jdbc-book" reloadable="true" source="org.eclipse.jst.jee.server:jsp-serlvet-jdbc-book"/><Context docBase="mongodb-jsp-servlet" path="/mongodb-jsp-servlet" reloadable="true" source="org.eclipse.jst.jee.server:mongodb-jsp-servlet"/><Context docBase="crud-book-redo" path="/crud-book-redo" reloadable="true" source="org.eclipse.jst.jee.server:crud-book-redo"/></Host>
+      <Context docBase="crud-login" path="/crud-login" reloadable="true" source="org.eclipse.jst.jee.server:crud-login"/><Context docBase="mongodb-jsp-servlet" path="/mongodb-jsp-servlet" reloadable="true" source="org.eclipse.jst.jee.server:mongodb-jsp-servlet"/></Host>
     </Engine>
   </Service>
 </Server>
